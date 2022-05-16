@@ -1,0 +1,13 @@
+digraph D { 
+A[fontcolor=green]
+A[shape=circle]
+B[shape=circle]
+C[shape=circle]
+D[shape=circle]
+E[shape=doublecircle]
+A-> {B, D}
+B-> {B, C, B}
+C-> {C, A, C}
+D-> {D, E}
+E-> {E}
+}

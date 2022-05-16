@@ -1,0 +1,8 @@
+Q0 -> Q1
+Q1 -> Q2 * Q3 \n ' Q2 ' Q4 Q6 Q2 Q5
+Q2 -> A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|0|1|2|3|4|5|6|7|8|9|_|' '
+Q3 -> ~ | e
+Q4 -> ' Q2 ' Q4 Q6 | e
+Q5 -> \n Q2 Q3 \n ' Q2 ' Q4 Q6 Q2 Q5 | e
+Q6 -> { Q2  Q7 }
+Q7 -> < | >
